@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+
+  animation: rainbow-text 3s linear infinite;
+  
+  glasses {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+    git {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+  
+ 
+  
+}
+
+@keyframes rainbow-text {
+  0% {
+    color: violet;
+  }
+  16.66% {
+    color: indigo;
+  }
+  33.33% {
+    color: blue
+  }
+  50% {
+    color: green;
+  }
+  66.66% {
+
+    color: yellow;
+  }
+  83.33% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
