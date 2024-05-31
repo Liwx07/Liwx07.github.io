@@ -45,7 +45,7 @@ html {
 
 a {
   animation: rainbow-text 3s linear infinite;
-} 
+}
 
 @keyframes rainbow-text {
   0% {
@@ -71,4 +71,3 @@ a {
     color: red;
   }
 }
-
