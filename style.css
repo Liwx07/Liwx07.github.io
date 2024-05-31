@@ -1,13 +1,11 @@
 html {
   height: 100%;
   width: 100%;
-
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
   font-size: 50px;
   font-family: Arial, sans-serif;
-
   animation: rainbow-text 3s linear infinite;
   
   glasses {
@@ -25,8 +23,28 @@ html {
         margin-top: 10px;
     }
   
- 
+    div {
+        display: block;
+        list-style-type: disc;
+        text-align: left;
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: 10px;
+    }
   
+    ul {
+        display: block;
+        list-style-type: disc;
+        text-align: left;
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+  
+}
+
+a {
+  animation: rainbow-text 3s linear infinite;
 }
 
 @keyframes rainbow-text {
