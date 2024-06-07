@@ -28,8 +28,11 @@ html {
         list-style-type: disc;
         text-align: left;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 25px;
         margin-top: 10px;
+        position: absolute;      
+        left: 50%;
+        transform: translateX(-50%);
     }
   
     ul {
@@ -71,3 +74,4 @@ a {
     color: red;
   }
 }
+
